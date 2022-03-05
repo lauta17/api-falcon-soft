@@ -6,6 +6,7 @@
 * [SQL in memory]
 * [XUnit for unit testing]
 * [JWT for authentication]
+* [Postman Collection for functional testing]
 
 # Arquitectura
 * Hexagonal
@@ -35,4 +36,10 @@ Para authenticarse y poder probar la api:
 2. Agregar el jwtToken en Authorize.
 3. Ya queda registrado el usuario para poder probar los endpoints
 
-**nota: Se agrego una postman collection para pruebas Falcon-Soft.postman_collection.json la misma contiene todas las urls.**
+
+Postman:
+
+1. Importar colleccion y enviroment.
+2. Correr las colleciones que se encuentran en la carpeta test para ejecutar los tests.
+
+**nota: Se agrego una postman collection para pruebas Falcon-Soft.postman_collection.json la misma contiene todas las urls y test funcionales.**
