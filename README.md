@@ -8,8 +8,8 @@
 * [JWT for authentication]
 
 # Arquitectura
-*Hexagonal
-*Clean code
+* Hexagonal
+* Clean code
 ![image](https://user-images.githubusercontent.com/41306563/156865443-e2cf4db2-e861-4af2-8342-b9504aba98ad.png)
 
 # Layers
