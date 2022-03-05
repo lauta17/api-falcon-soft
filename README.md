@@ -37,7 +37,7 @@ Para authenticarse y poder probar la api:
 3. Ya queda registrado el usuario para poder probar los endpoints
 
 
-Postman:
+# Postman Test:
 
 1. Importar colleccion y enviroment.
 2. Correr las colleciones que se encuentran en la carpeta test para ejecutar los tests.
