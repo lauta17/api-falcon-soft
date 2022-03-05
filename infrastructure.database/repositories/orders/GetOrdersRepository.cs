@@ -23,10 +23,10 @@ namespace infrastructure.database.repositories.orders
         public async Task<List<Order>> Execute(PaginationDto paginationDto, OrderFiltersDto ordersFilterDto)
         {
             var ordersDb = _dbContext.Orders
+                .OrderBy(paginationDto.OrderBy)
                 .Include(order => order.Products)
                 .Skip(paginationDto.Offset)
                 .Take(paginationDto.Limit)
-                .OrderBy(paginationDto.OrderBy)
                 .Where(order => 
                        (ordersFilterDto.Id.HasValue ? order.Id == ordersFilterDto.Id : true) 
                            && (ordersFilterDto.TotalPrice > 0 ? order.TotalPrice == ordersFilterDto.TotalPrice : true))
