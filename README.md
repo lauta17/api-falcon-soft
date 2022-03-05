@@ -42,4 +42,4 @@ Para authenticarse y poder probar la api:
 1. Importar la carpeta postman-collection a Postman.
 2. Correr las colleciones que se encuentran en la carpeta tests.
 
-**nota: Se agregaron los request en la collection para poder hacer request a la api sin la necesidad de la UI de swagger
+**nota: Se agregaron los request en la collection para poder hacer request a la api sin la necesidad de la UI de swagger**
