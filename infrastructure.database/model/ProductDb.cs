@@ -7,10 +7,5 @@
         public int CurrencyId { get; set; }
         public int ProductTypeId { get; set; }
         public OrderDb Order { get; set; }
-
-        public ProductDb() 
-        {
-            Order = new OrderDb();
-        }
     }
 }
