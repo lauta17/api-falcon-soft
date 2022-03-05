@@ -39,7 +39,7 @@ Para authenticarse y poder probar la api:
 
 # Postman Test:
 
-1. Importar colleccion y enviroment.
-2. Correr las colleciones que se encuentran en la carpeta test para ejecutar los tests.
+1. Importar la carpeta postman-collection a Postman.
+2. Correr las colleciones que se encuentran en la carpeta tests.
 
-**nota: Se agrego una postman collection para pruebas Falcon-Soft.postman_collection.json la misma contiene todas las urls y test funcionales.**
+**nota: Se agregaron los request en la collection para poder hacer request a la api sin la necesidad de la UI de swagger
