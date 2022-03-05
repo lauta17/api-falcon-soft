@@ -35,4 +35,4 @@ Para authenticarse y poder probar la api:
 2. Agregar el jwtToken en Authorize.
 3. Ya queda registrado el usuario para poder probar los endpoints
 
-nota: Tambien se agrego una postman collection para pruebas Falcon-Soft.postman_collection.json
+**nota:** Tambien se agrego una postman collection para pruebas Falcon-Soft.postman_collection.json
